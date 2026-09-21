@@ -34,9 +34,9 @@ pip install -e .
 ## Usage
 
 ```bash
-crypto-misuse-scan path/to/file_or_directory
-crypto-misuse-scan . --min-severity HIGH
-crypto-misuse-scan . --json > findings.json
+cipher-sentry path/to/file_or_directory
+cipher-sentry . --min-severity HIGH
+cipher-sentry . --json > findings.json
 ```
 
 Or without installing:
