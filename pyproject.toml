@@ -1,0 +1,18 @@
+[project]
+name = "cipher-sentry"
+version = "0.1.0"
+description = "Static analysis tool that flags common cryptographic misuse patterns in Python source code."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Tharun Panagoda" }]
+
+[project.scripts]
+cipher-sentry = "crypto_misuse_scanner.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["crypto_misuse_scanner*"]
