@@ -125,8 +125,7 @@ pytest tests/
 
 ## Possible extensions
 
-- Detect IV/nonce reuse across multiple calls (needs lightweight dataflow)
-- Flag insufficient key sizes for RSA/DH key generation
+- Detect IV/nonce reuse across multiple calls (needs lightweight dataflow
 - Pre-commit hook integration
 - Support for JavaScript/TypeScript crypto APIs
 
